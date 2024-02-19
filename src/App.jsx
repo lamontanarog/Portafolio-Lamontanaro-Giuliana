@@ -1,12 +1,15 @@
-import MisProyectos from "./Proyectos/Proyectos"
 
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import MisProyectos from "./Components/Proyectos"
+import Sobremi from "./Components/Sobremi"
+import Misconocimientos from './Components/Misconocimientos'
 function App() {
 
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-info text-body">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">FullStack developer</a>
+          <a className="navbar-brand" href="/">FullStack developer</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -27,7 +30,14 @@ function App() {
       </nav>
       <div>
       </div>
-      <MisProyectos/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<MisProyectos/>}></Route>
+          <Route path="/sobremi" element={<Sobremi/>}></Route>
+          <Route path="/misconocimientos" element={<Misconocimientos/>}></Route>
+        </Routes>
+
+      </BrowserRouter>
     </div>
   )
 }
