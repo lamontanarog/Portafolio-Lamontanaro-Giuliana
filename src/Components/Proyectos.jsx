@@ -1,6 +1,7 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Swal from "sweetalert2";
+import './proyectos.css'
 function MisProyectos() {
   return (
     <>
