@@ -2,19 +2,18 @@ import "./proyectos.css";
 
 function Sobremi() {
   return (
+    <>
+    
     <div id="contenedor-sobre-mi" className="container mt-5">
-      <div
-        id="carouselExampleSlidesOnly"
-        className="carousel slide"
-        data-bs-ride="carousel"
-      >
+      <div id="carrusel01" className="carousel slide" data-bs-ride="carousel" >
+        
         <div className="carousel-inner text-center">
           <div className="carousel-item active">
             <img
               className="d-block w-100"
               src="/img/fotocv.jpg"
               alt="..."
-            />
+              />
             <div className="bg-text-carusel mt-2">
               <h1>Quien soy?</h1>
               <h5>
@@ -30,7 +29,7 @@ function Sobremi() {
               className="d-block w-100"
               src="/img/certificadoDW.png"
               alt="..."
-            />
+              />
             <div className="bg-text-carusel mt-2">
               <h1>Desarrollo Web</h1>
               <h5>
@@ -64,7 +63,7 @@ function Sobremi() {
               className="d-block w-100"
               src="/img/certificadoReact.png"
               alt="..."
-            />
+              />
             <div className="bg-text-carusel mt-2">
               <h1>React Js</h1>
               <h5>
@@ -82,7 +81,7 @@ function Sobremi() {
               className="d-block w-100"
               src="/img/certificadoCarrerafs.png"
               alt="..."
-            />
+              />
             <div className="bg-text-carusel mt-2">
               <h1>Node Js, Express, MongoDB</h1>
               <h5>
@@ -95,7 +94,16 @@ function Sobremi() {
           </div>
         </div>
       </div>
+      {/* <!-- Botones izquierda y derecha --> */}
+<button className="carousel-control-prev" type="button" data-bs-target="#carrusel01" data-bs-slide="prev">
+  <span className="carousel-control-prev-icon"></span>
+</button>
+<button className="carousel-control-next" type="button" data-bs-target="#carrusel01" data-bs-slide="next">
+  <span className="carousel-control-next-icon"></span>
+</button>
     </div>
+    
+              </>
   );
 }
 

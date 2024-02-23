@@ -100,3 +100,21 @@ div .bg-text-carusel h5:hover {
   border-radius: 5%;
 
 }
+
+.carousel-control-prev{
+  margin-top: 25%;
+  margin-left: 5%;
+}
+
+.carousel-control-prev-icon:hover{
+  filter: invert(1);
+}
+
+.carousel-control-next{
+  margin-top: 25%;
+  margin-right: 5%;
+}
+
+.carousel-control-next-icon:hover{
+  filter: invert(1);
+}
