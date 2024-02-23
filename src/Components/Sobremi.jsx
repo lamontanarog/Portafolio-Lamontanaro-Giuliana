@@ -13,7 +13,7 @@ function Sobremi() {
               className="d-block w-100"
               src="/img/fotocv.jpg"
               alt="..."
-              />
+              style={{borderRadius:'5px'}}/>
             <div className="bg-text-carusel mt-2">
               <h1>Quien soy?</h1>
               <h5>
@@ -29,7 +29,7 @@ function Sobremi() {
               className="d-block w-100"
               src="/img/certificadoDW.png"
               alt="..."
-              />
+              style={{borderRadius:'5px'}}/>
             <div className="bg-text-carusel mt-2">
               <h1>Desarrollo Web</h1>
               <h5>
@@ -45,7 +45,7 @@ function Sobremi() {
               className="d-block w-100"
               src="/img/certificadoJs.png"
               alt="..."
-            />
+              style={{borderRadius:'5px'}}/>
             <div className="bg-text-carusel mt-2">
               <h1>JavaScript</h1>
               <h5>
@@ -63,7 +63,7 @@ function Sobremi() {
               className="d-block w-100"
               src="/img/certificadoReact.png"
               alt="..."
-              />
+              style={{borderRadius:'5px'}}/>
             <div className="bg-text-carusel mt-2">
               <h1>React Js</h1>
               <h5>
@@ -81,7 +81,7 @@ function Sobremi() {
               className="d-block w-100"
               src="/img/certificadoCarrerafs.png"
               alt="..."
-              />
+              style={{borderRadius:'5px'}}/>
             <div className="bg-text-carusel mt-2">
               <h1>Node Js, Express, MongoDB</h1>
               <h5>

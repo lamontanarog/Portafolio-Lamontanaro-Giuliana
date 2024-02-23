@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { BrowserRouter as Router, Routes,  Route } from "react-router-dom"
 import MisProyectos from "./Components/Proyectos"
 import Sobremi from "./Components/Sobremi"
 import Misconocimientos from './Components/Misconocimientos'
@@ -30,14 +30,14 @@ function App() {
       </nav>
       <div>
       </div>
-      <BrowserRouter>
+      <Router>
         <Routes>
-          <Route path="/" element={<Sobremi/>}></Route>
-          <Route path="/proyectos" element={<MisProyectos/>}></Route>
-          <Route path="/misconocimientos" element={<Misconocimientos/>}></Route>
+          <Route exact path="/" Component={Sobremi}></Route>
+          <Route path="/proyectos" Component={MisProyectos}></Route>
+          <Route path="/misconocimientos" Component={Misconocimientos}></Route>
         </Routes>
 
-      </BrowserRouter>
+      </Router>
     </div>
   )
 }

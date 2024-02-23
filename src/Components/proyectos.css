@@ -10,3 +10,8 @@
     overflow: hidden;
   }
 
+div .buttons-proyects:hover{
+  background-color: #FFA0FD;
+  color: black;
+  border-color: #FFA0FD;
+}
