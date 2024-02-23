@@ -12,7 +12,7 @@ function Sobremi() {
           <div className="carousel-item active">
             <img
               className="d-block w-100"
-              src="../public/img/fotocv.jpg"
+              src="/img/fotocv.jpg"
               alt="..."
             />
             <div className="bg-text-carusel mt-2">
@@ -28,7 +28,7 @@ function Sobremi() {
           <div className="carousel-item">
             <img
               className="d-block w-100"
-              src="../public/img/certificadoDW.png"
+              src="/img/certificadoDW.png"
               alt="..."
             />
             <div className="bg-text-carusel mt-2">
@@ -44,7 +44,7 @@ function Sobremi() {
           <div className="carousel-item">
             <img
               className="d-block w-100"
-              src="../public/img/certificadoJs.png"
+              src="/img/certificadoJs.png"
               alt="..."
             />
             <div className="bg-text-carusel mt-2">
@@ -62,7 +62,7 @@ function Sobremi() {
           <div className="carousel-item">
             <img
               className="d-block w-100"
-              src="../public/img/certificadoReact.png"
+              src="/img/certificadoReact.png"
               alt="..."
             />
             <div className="bg-text-carusel mt-2">
@@ -80,7 +80,7 @@ function Sobremi() {
           <div className="carousel-item">
             <img
               className="d-block w-100"
-              src="../public/img/certificadoCarrerafs.png"
+              src="/img/certificadoCarrerafs.png"
               alt="..."
             />
             <div className="bg-text-carusel mt-2">

@@ -83,7 +83,7 @@ footer .air.air4 {
 }
 
 div .bg-text-carusel {
-  background: linear-gradient(rgba(0, 0, 0, 0.325), rgba(0, 0, 0, 0.496)), url('../public/img/Backgroundcolors.avif') no-repeat center top;
+  background: linear-gradient(rgba(0, 0, 0, 0.325), rgba(0, 0, 0, 0.496)), url('/img/Backgroundcolors.avif') no-repeat center top;
   background-position: bottom;
   background-size: cover;
   padding: 8px;

@@ -9,7 +9,7 @@ function MisProyectos() {
         <div className="row ">
           <div className="col-md-4">
             <Card className="text-center" style={{ width: "19rem" }}>
-              <Card.Img variant="top" src="../icons/iconoControlDegastos.jpg" />
+              <Card.Img variant="top" src="/icons/iconoControlDegastos.jpg" />
               <Card.Body>
                 <Card.Title>Control de gastos</Card.Title>
                 <Card.Text>
@@ -27,7 +27,7 @@ function MisProyectos() {
                       background: "#aecb9d ",
                       backdrop: `
                       rgba(0,0,123,0.4)
-                      url("../gifs/controlgastos.gif")
+                      url("/gifs/controlgastos.gif")
                       left bottom
                       no-repeat
                     `,
@@ -61,7 +61,7 @@ function MisProyectos() {
             <Card className="text-center" style={{ width: "19rem" }}>
               <Card.Img
                 variant="top"
-                src="../icons/Splendora_Cosmetics-logos.jpeg"
+                src="/icons/Splendora_Cosmetics-logos.jpeg"
               />
               <Card.Body>
                 <Card.Title>Splendora Cosmetics</Card.Title>
@@ -77,10 +77,10 @@ function MisProyectos() {
                       width: 700,
                       padding: "4em",
                       color: "#fff",
-                      background: "url(../public/img/Backgroundcolors.avif) ",
+                      background: "url(/img/Backgroundcolors.avif) ",
                       backdrop: `
                       rgba(0,0,123,0.4)
-                      url("../public/gifs/SplendoraGif.gif")
+                      url("/gifs/SplendoraGif.gif")
                       left bottom
                       no-repeat
                     `,
@@ -112,7 +112,7 @@ function MisProyectos() {
           </div>
           <div className="col">
             <Card className="text-center" style={{ width: "19rem" }}>
-              <Card.Img variant="top" src="../icons/logoPodiatryLove.jpg" />
+              <Card.Img variant="top" src="/icons/logoPodiatryLove.jpg" />
               <Card.Body>
                 <Card.Title>Podiatry Love</Card.Title>
                 <Card.Text>
@@ -133,7 +133,7 @@ function MisProyectos() {
                       `,
                       backdrop: `
                       rgba(0,0,123,0.4)
-                      url("../gifs/PodoGif.gif")
+                      url("/gifs/PodoGif.gif")
                       left bottom
                       no-repeat
                     `,
@@ -165,7 +165,7 @@ function MisProyectos() {
           </div>
           <div className="col mt-5">
             <Card className="text-center" style={{ width: "19rem" }}>
-              <Card.Img variant="top" src="../icons/iconoVintage.jpg" />
+              <Card.Img variant="top" src="/icons/iconoVintage.jpg" />
               <Card.Body>
                 <Card.Title>Vintage Golden Show</Card.Title>
                 <Card.Text>
@@ -183,7 +183,7 @@ function MisProyectos() {
                       background: "#aecb9d ",
                       backdrop: `
                       rgba(0,0,123,0.4)
-                      url("../gifs/controlgastos.gif")
+                      url("/gifs/controlgastos.gif")
                       left bottom
                       no-repeat
                     `,
