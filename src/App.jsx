@@ -16,13 +16,13 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="./proyectos">Mis Proyectos</a>
+                <a className="nav-link" aria-current="page" href="/proyectos">Mis Proyectos</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/">Sobre mi</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="./misconocimientos">Mis conocimientos</a>
+                <a className="nav-link" href="/misconocimientos">Mis conocimientos</a>
               </li>
             </ul>
           </div>
