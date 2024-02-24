@@ -6,9 +6,9 @@ function MisProyectos() {
   return (
     <>
       <div className="container mt-5">
-        <div className="row ">
-          <div className="col-md-4">
-            <Card className="text-center" style={{ width: "19rem" }}>
+        <div className="row text-center ">
+          <div className="col-xl-auto col-md-auto col-sm-auto ">
+            <Card  style={{ width: "19rem" }}>
               <Card.Img variant="top" src="/icons/iconoControlDegastos.jpg" />
               <Card.Body>
                 <Card.Title>Control de gastos</Card.Title>
@@ -21,14 +21,19 @@ function MisProyectos() {
                     Swal.fire({
                       title:
                         "El proyecto consiste en una aplicación para gestionar los gastos, ingresos y el balance general de los usuarios. Ha sido desarrollado utilizando ReactJS, haciendo uso de hooks, context y diversas librerías para una mejor organización y funcionalidad. Además, se integra Firebase para gestionar la autenticación y el control de usuarios, brindando así una experiencia segura y personalizada.",
-                      width: 700,
+                      width: 900,
+                      position:'center-end',
                       padding: "4em",
                       color: "#fff",
-                      background: "#aecb9d ",
+                      background: `
+                      url(/img/bannerdollar.png)
+                      no-repeat
+                      center
+                      `,
                       backdrop: `
                       rgba(0,0,123,0.4)
                       url("/gifs/controlgastos.gif")
-                      left bottom
+                      left center
                       no-repeat
                     `,
                     });
@@ -57,8 +62,8 @@ function MisProyectos() {
               </Card.Body>
             </Card>
           </div>
-          <div className="col">
-            <Card className="text-center" style={{ width: "19rem" }}>
+          <div className="col-xl-auto col-md-auto col-sm-auto">
+            <Card style={{ width: "19rem" }}>
               <Card.Img
                 variant="top"
                 src="/icons/Splendora_Cosmetics-logos.jpeg"
@@ -74,14 +79,19 @@ function MisProyectos() {
                     Swal.fire({
                       title:
                         "El proyecto es un E-commer dedicado a la venta de productos cosméticos. La plataforma cuenta con un carrito de compras incorporado que permite a los usuarios seleccionar y comprar productos de manera sencilla. Además, la aplicación consume una API que proporciona el valor actual del dólar para realizar la conversión de precios de los productos a pesos, brindando así una experiencia de compra más transparente para los usuarios.",
-                      width: 700,
+                      width: 900,
+                      position:"center-end",
                       padding: "4em",
                       color: "#fff",
-                      background: "url(/img/Backgroundcolors.avif) ",
+                      background: `
+                      url(/img/Backgroundcolors.png)
+                      no-repeat
+                      `
+                      ,
                       backdrop: `
                       rgba(0,0,123,0.4)
                       url("/gifs/SplendoraGif.gif")
-                      left bottom
+                      left center
                       no-repeat
                     `,
                     });
@@ -110,8 +120,10 @@ function MisProyectos() {
               </Card.Body>
             </Card>
           </div>
-          <div className="col">
-            <Card className="text-center" style={{ width: "19rem" }}>
+          
+          <div className="row text-center mt-5">
+          <div className="col-xl-auto col-md-auto col-sm-auto">
+            <Card style={{ width: "19rem" }}>
               <Card.Img variant="top" src="/icons/logoPodiatryLove.jpg" />
               <Card.Body>
                 <Card.Title>Podiatry Love</Card.Title>
@@ -123,18 +135,18 @@ function MisProyectos() {
                   onClick={() => {
                     Swal.fire({
                       title:
-                        "El proyecto consiste en el desarrollo de un sitio web informativo y de contacto para una médica podóloga. El sitio proporcionará información relevante sobre los servicios ofrecidos por la podóloga, así como detalles sobre su experiencia y formación profesional. Además, incluirá secciones informativas sobre diferentes condiciones podológicas, consejos de cuidado del pie y recomendaciones para mantener una buena salud podológica. La página de contacto permitirá a los usuarios ponerse en contacto con la médica podóloga para hacer consultas, programar citas o solicitar más información sobre los servicios ofrecidos.",
-                      width: 900,
-                      padding: "4em",
+                        "El proyecto consiste en el desarrollo de un sitio web informativo y de contacto para una médica podóloga.Ademas La página de contacto permitirá a los usuarios ponerse en contacto con la médica podóloga para hacer consultas, programar citas o solicitar más información sobre los servicios ofrecidos.",
+                      width: 500,
+                      position:"center-start",
+                      padding: "3em",
                       color: "#fff",
-                      background: `url(https://plus.unsplash.com/premium_photo-1664373622112-00bc8a7925a3?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+                      background: `url(/img/BackgroundMedico.avif)
                       no-repeat
-                      center
                       `,
                       backdrop: `
                       rgba(0,0,123,0.4)
                       url("/gifs/PodoGif.gif")
-                      left bottom
+                      right center
                       no-repeat
                     `,
                     });
@@ -163,8 +175,8 @@ function MisProyectos() {
               </Card.Body>
             </Card>
           </div>
-          <div className="col mt-5">
-            <Card className="text-center" style={{ width: "19rem" }}>
+          <div className="col-xl-auto col-md-auto col-sm-auto">
+            <Card style={{ width: "19rem" }}>
               <Card.Img variant="top" src="/icons/iconoVintage.jpg" />
               <Card.Body>
                 <Card.Title>Vintage Golden Show</Card.Title>
@@ -212,6 +224,7 @@ function MisProyectos() {
                 </Button>
               </Card.Body>
             </Card>
+          </div>
           </div>
         </div>
       </div>

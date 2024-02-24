@@ -15,3 +15,7 @@ div .buttons-proyects:hover{
   color: black;
   border-color: #FFA0FD;
 }
+
+div .row{
+  justify-content: space-evenly;
+}
