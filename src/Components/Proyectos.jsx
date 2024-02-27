@@ -8,7 +8,7 @@ function MisProyectos() {
       <div className="container mt-5">
         <div className="row text-center ">
           <div className="col-xl-auto col-md-auto col-sm-auto ">
-            <Card  style={{ width: "19rem" }}>
+            <Card  style={{ width: "19rem", aspectRatio: "2/3" }}>
               <Card.Img variant="top" src="/icons/iconoControlDegastos.jpg" />
               <Card.Body>
                 <Card.Title>Control de gastos</Card.Title>
@@ -63,7 +63,7 @@ function MisProyectos() {
             </Card>
           </div>
           <div className="col-xl-auto col-md-auto col-sm-auto">
-            <Card style={{ width: "19rem" }}>
+            <Card style={{ width: "19rem" ,aspectRatio: "2/3"}}>
               <Card.Img
                 variant="top"
                 src="/icons/Splendora_Cosmetics-logos.jpeg"
@@ -123,7 +123,7 @@ function MisProyectos() {
           
           <div className="row text-center mt-5">
           <div className="col-xl-auto col-md-auto col-sm-auto">
-            <Card style={{ width: "19rem" }}>
+            <Card style={{ width: "19rem", aspectRatio: "2/3" }}>
               <Card.Img variant="top" src="/icons/logoPodiatryLove.jpg" />
               <Card.Body>
                 <Card.Title>Podiatry Love</Card.Title>
@@ -135,20 +135,23 @@ function MisProyectos() {
                   onClick={() => {
                     Swal.fire({
                       title:
-                        "El proyecto consiste en el desarrollo de un sitio web informativo y de contacto para una médica podóloga.Ademas La página de contacto permitirá a los usuarios ponerse en contacto con la médica podóloga para hacer consultas, programar citas o solicitar más información sobre los servicios ofrecidos.",
-                      width: 500,
-                      position:"center-start",
-                      padding: "3em",
-                      color: "#fff",
-                      background: `url(/img/BackgroundMedico.avif)
-                      no-repeat
+                        "El proyecto consiste en el desarrollo de un sitio web informativo y de contacto para una médica podóloga.",
+                        width: 900,
+                        height: 900,
+                        position:'center-end',
+                        padding: "5em",
+                        color: "#fff",
+                        background: `
+                        url(/img/backgroundMedico.jpg)
+                        no-repeat
+                        center
+                        `,
+                        backdrop: `
+                        rgba(0,0,123,0.4)
+                        url("/gifs/PodoGif.gif")
+                        left center
+                        no-repeat
                       `,
-                      backdrop: `
-                      rgba(0,0,123,0.4)
-                      url("/gifs/PodoGif.gif")
-                      right center
-                      no-repeat
-                    `,
                     });
                   }}
                 >
@@ -176,27 +179,33 @@ function MisProyectos() {
             </Card>
           </div>
           <div className="col-xl-auto col-md-auto col-sm-auto">
-            <Card style={{ width: "19rem" }}>
+            <Card style={{ width: "19rem", aspectRatio: "2/3" }}>
               <Card.Img variant="top" src="/icons/iconoVintage.jpg" />
               <Card.Body>
                 <Card.Title>Vintage Golden Show</Card.Title>
                 <Card.Text>
-                Este sitio web está construido utilizando ReactJS y Firebase como tecnologías principales.
+                Proyecto realizado utilizando ReactJS y Firebase como tecnologías principales.
                 </Card.Text>
                 <Button
                   className="mx-4"
                   onClick={() => {
                     Swal.fire({
                       title:
-                        "Proyecto para llevar un control de gastos, con ingresos, egresos y balance general. Fue realizada con Reactjs{Utilizando hooks, context y librerias} ademas de firebase para llevar el control de los usuarios.",
-                      width: 700,
+                        "El proyecto es una aplicación de E-commerce que utiliza Firebase para gestionar tanto los productos como las órdenes de los usuarios. El frontend se desarrolló con ReactJS, implementando hooks, context y varias librerías para mejorar la organización y funcionalidad.",
+                      width: 900,
+                      height:"900px",
+                      position:'center-end',
                       padding: "4em",
                       color: "#fff",
-                      background: "#aecb9d ",
+                      background: `
+                      url("https://img.freepik.com/free-psd/online-store-icon-isolated-3d-render-illustration_47987-8145.jpg?t=st=1709076525~exp=1709080125~hmac=04530747abe540bcf5ac2c7983265c495a5017b3d451466cf4d9aaa5ac932a43&w=1060")
+                      no-repeat
+                      center
+                      `,
                       backdrop: `
                       rgba(0,0,123,0.4)
-                      url("/gifs/controlgastos.gif")
-                      left bottom
+                      url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYW0wbTBmdjJkMGNkZWtvcHh4aDQ4bWVmemFuM2lsbWdwdXFlczJ0MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XMdnkAT4Q9rJ4thW8h/giphy.gif")
+                      left center
                       no-repeat
                     `,
                     });

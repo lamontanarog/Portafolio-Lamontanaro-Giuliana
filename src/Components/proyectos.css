@@ -19,3 +19,12 @@ div .buttons-proyects:hover{
 div .row{
   justify-content: space-evenly;
 }
+
+div:where(.swal2-container) div:where(.swal2-popup){
+  background-size: cover;
+}
+
+div:where(.swal2-container) h2:where(.swal2-title){
+  font-size: x-large;
+  color: black;
+}

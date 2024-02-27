@@ -1,17 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+
 main div ul li {
     display: inline-block;
-    
+
 }
+
 main div ul li img {
     width: 150px;
     margin-left: 10px;
     aspect-ratio: 1/1;
 }
 
-@media(max-width:  2800px) and (min-width:1800px)   {
-    div .lista-logos {
-        margin-left: 25rem;
+
+@media(max-width: 2000px) and (min-width:1250px) {
+    .lista-logos {
+        padding: 1.5rem;
+        margin-left: 15em;
     }
 }
 
 
+.title-shadow {
+    margin-top: 14px;
+    text-align: center;
+    color: transparent;
+    -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 2px;
+    -moz-text-stroke-color: #000000;
+    -webkit-text-stroke-color: #ffffff;
+    text-shadow: 7px 5px #ffa0fd80;
+    letter-spacing: 9px;
+}
