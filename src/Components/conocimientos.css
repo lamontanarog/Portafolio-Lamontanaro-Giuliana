@@ -1,0 +1,17 @@
+main div ul li {
+    display: inline-block;
+    
+}
+main div ul li img {
+    width: 150px;
+    margin-left: 10px;
+    aspect-ratio: 1/1;
+}
+
+@media(max-width:  2800px) and (min-width:1800px)   {
+    div .lista-logos {
+        margin-left: 25rem;
+    }
+}
+
+
