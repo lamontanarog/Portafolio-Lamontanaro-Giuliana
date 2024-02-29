@@ -12,17 +12,18 @@ main div ul li img {
     aspect-ratio: 1/1;
 }
 
-
+/* 
 @media(max-width: 2000px) and (min-width:1250px) {
     .lista-logos {
         padding: 1.5rem;
         margin-left: 15em;
     }
-}
+} */
 
 
 .title-shadow {
-    margin-top: 14px;
+    margin-bottom: 13px;
+    margin-top: 13px;
     text-align: center;
     color: transparent;
     -moz-text-stroke-width: 2px;
@@ -31,4 +32,9 @@ main div ul li img {
     -webkit-text-stroke-color: #ffffff;
     text-shadow: 7px 5px #ffa0fd80;
     letter-spacing: 9px;
+}
+
+.lista-logos{
+    display: flex;
+    justify-content: center;
 }
