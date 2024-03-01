@@ -29,6 +29,7 @@ function MisProyectos() {
                       url(/img/bannerdollar.png)
                       no-repeat
                       center
+                      /cover
                       `,
                       backdrop: `
                       rgba(0,0,123,0.4)
@@ -86,6 +87,8 @@ function MisProyectos() {
                       background: `
                       url(/img/Backgroundcolors.png)
                       no-repeat
+                      center
+                      /cover
                       `
                       ,
                       backdrop: `
@@ -141,9 +144,10 @@ function MisProyectos() {
                         padding: "5em",
                         color: "#fff",
                         background: `
-                        url(/img/backgroundMedico.jpg)
+                        url(/img/BackgroundPodologa.jpg)
                         no-repeat
                         center
+                        / cover
                         `,
                         backdrop: `
                         rgba(0,0,123,0.4)
@@ -200,6 +204,7 @@ function MisProyectos() {
                       url("/img/BackgroundCarrito.png")
                       no-repeat
                       center
+                      /cover
                       `,
                       backdrop: `
                       rgba(0,0,123,0.4)
