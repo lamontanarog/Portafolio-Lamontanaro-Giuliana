@@ -137,7 +137,6 @@ function MisProyectos() {
                       title:
                         "El proyecto consiste en el desarrollo de un sitio web informativo y de contacto para una médica podóloga.",
                         width: 900,
-                        height: 900,
                         position:'center-end',
                         padding: "5em",
                         color: "#fff",
@@ -198,13 +197,13 @@ function MisProyectos() {
                       padding: "4em",
                       color: "#fff",
                       background: `
-                      url("https://img.freepik.com/free-psd/online-store-icon-isolated-3d-render-illustration_47987-8145.jpg?t=st=1709076525~exp=1709080125~hmac=04530747abe540bcf5ac2c7983265c495a5017b3d451466cf4d9aaa5ac932a43&w=1060")
+                      url("/img/BackgroundCarrito.png")
                       no-repeat
                       center
                       `,
                       backdrop: `
                       rgba(0,0,123,0.4)
-                      url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYW0wbTBmdjJkMGNkZWtvcHh4aDQ4bWVmemFuM2lsbWdwdXFlczJ0MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XMdnkAT4Q9rJ4thW8h/giphy.gif")
+                      url("/gifs/duckBuy.gif")
                       left center
                       no-repeat
                     `,
