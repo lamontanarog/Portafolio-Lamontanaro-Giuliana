@@ -8,7 +8,7 @@ function MisProyectos() {
       <div className="container mt-5">
         <div className="row text-center ">
           <div className="col-xl-auto col-md-auto col-sm-auto ">
-            <Card  style={{ width: "19rem", aspectRatio: "2/3" }}>
+            <Card  style={{ width: "20rem", aspectRatio: "2/3" }}>
               <Card.Img variant="top" src="/icons/iconoControlDegastos.jpg" />
               <Card.Body>
                 <Card.Title>Control de gastos</Card.Title>
@@ -22,7 +22,7 @@ function MisProyectos() {
                       title:
                         "El proyecto consiste en una aplicación para gestionar los gastos, ingresos y el balance general de los usuarios. Ha sido desarrollado utilizando ReactJS, haciendo uso de hooks, context y diversas librerías para una mejor organización y funcionalidad. Además, se integra Firebase para gestionar la autenticación y el control de usuarios, brindando así una experiencia segura y personalizada.",
                       width: 900,
-                      position:'center-end',
+                      position:'center',
                       padding: "4em",
                       color: "#fff",
                       background: `
@@ -30,13 +30,7 @@ function MisProyectos() {
                       no-repeat
                       center
                       /cover
-                      `,
-                      backdrop: `
-                      rgba(0,0,123,0.4)
-                      url("/gifs/controlgastos.gif")
-                      left center
-                      no-repeat
-                    `,
+                      `
                     });
                   }}
                 >
@@ -64,7 +58,7 @@ function MisProyectos() {
             </Card>
           </div>
           <div className="col-xl-auto col-md-auto col-sm-auto">
-            <Card style={{ width: "19rem" ,aspectRatio: "2/3"}}>
+            <Card style={{ width: "20rem" ,aspectRatio: "2/3"}}>
               <Card.Img
                 variant="top"
                 src="/icons/Splendora_Cosmetics-logos.jpeg"
@@ -81,7 +75,7 @@ function MisProyectos() {
                       title:
                         "El proyecto es un E-commer dedicado a la venta de productos cosméticos. La plataforma cuenta con un carrito de compras incorporado que permite a los usuarios seleccionar y comprar productos de manera sencilla. Además, la aplicación consume una API que proporciona el valor actual del dólar para realizar la conversión de precios de los productos a pesos, brindando así una experiencia de compra más transparente para los usuarios.",
                       width: 900,
-                      position:"center-end",
+                      position:"center",
                       padding: "4em",
                       color: "#fff",
                       background: `
@@ -90,13 +84,6 @@ function MisProyectos() {
                       center
                       /cover
                       `
-                      ,
-                      backdrop: `
-                      rgba(0,0,123,0.4)
-                      url("/gifs/SplendoraGif.gif")
-                      left center
-                      no-repeat
-                    `,
                     });
                   }}
                 >
@@ -126,7 +113,7 @@ function MisProyectos() {
           
           <div className="row text-center mt-5">
           <div className="col-xl-auto col-md-auto col-sm-auto">
-            <Card style={{ width: "19rem", aspectRatio: "2/3" }}>
+            <Card style={{ width: "20rem", aspectRatio: "2/3" }}>
               <Card.Img variant="top" src="/icons/logoPodiatryLove.jpg" />
               <Card.Body>
                 <Card.Title>Podiatry Love</Card.Title>
@@ -140,7 +127,7 @@ function MisProyectos() {
                       title:
                         "El proyecto consiste en el desarrollo de un sitio web informativo y de contacto para una médica podóloga.",
                         width: 900,
-                        position:'center-end',
+                        position:'center',
                         padding: "5em",
                         color: "#fff",
                         background: `
@@ -148,13 +135,7 @@ function MisProyectos() {
                         no-repeat
                         center
                         / cover
-                        `,
-                        backdrop: `
-                        rgba(0,0,123,0.4)
-                        url("/gifs/PodoGif.gif")
-                        left center
-                        no-repeat
-                      `,
+                        `
                     });
                   }}
                 >
@@ -182,7 +163,7 @@ function MisProyectos() {
             </Card>
           </div>
           <div className="col-xl-auto col-md-auto col-sm-auto">
-            <Card style={{ width: "19rem", aspectRatio: "2/3" }}>
+            <Card style={{ width: "20rem", aspectRatio: "2/3" }}>
               <Card.Img variant="top" src="/icons/iconoVintage.jpg" />
               <Card.Body>
                 <Card.Title>Vintage Golden Show</Card.Title>
@@ -197,7 +178,7 @@ function MisProyectos() {
                         "El proyecto es una aplicación de E-commerce que utiliza Firebase para gestionar tanto los productos como las órdenes de los usuarios. El frontend se desarrolló con ReactJS, implementando hooks, context y varias librerías para mejorar la organización y funcionalidad.",
                       width: 900,
                       height:"900px",
-                      position:'center-end',
+                      position:'center',
                       padding: "4em",
                       color: "#fff",
                       background: `
@@ -205,13 +186,7 @@ function MisProyectos() {
                       no-repeat
                       center
                       /cover
-                      `,
-                      backdrop: `
-                      rgba(0,0,123,0.4)
-                      url("/gifs/duckBuy.gif")
-                      left center
-                      no-repeat
-                    `,
+                      `
                     });
                   }}
                 >

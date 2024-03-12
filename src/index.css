@@ -82,27 +82,7 @@ footer .air.air4 {
   border-radius: 5px;
 }
 
-/* Carrousel component About me */
 
-div .bg-text-carusel {
-  background: linear-gradient(rgba(0, 0, 0, 0.225), rgba(0, 0, 0, 0.496)), url('/img/Backgroundcolors.avif') no-repeat center top;
-  background-position: bottom;
-  background-size: cover;
-  padding: 8px;
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: 400;
-  border-radius: 6px;
-}
-
-div .bg-text-carusel h5:hover {
-  background-color: #FFA0FD;
-  color: black;
-  transition: 0.5s;
-  opacity: 0.8;
-  border-radius: 5px;
-
-}
 
 .carousel-control-prev{
   margin-top: 5rem;
