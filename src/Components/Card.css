@@ -39,7 +39,7 @@ div .card-about-me h5:hover {
 }
 
 .Card {
-    background-image: url('./img/Backgroundcolors.png');
+    background-image: url('/img/Backgroundcolors.png');
     background-size: cover;
     width: 400px;
     height: 200px;
