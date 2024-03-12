@@ -1,8 +1,9 @@
 
 import { BrowserRouter as Router, Routes,  Route } from "react-router-dom"
 import MisProyectos from "./Components/Proyectos"
-import Sobremi from "./Components/Sobremi"
+import MainPage from "./Components/MainPage"
 import Misconocimientos from './Components/Misconocimientos'
+import AboutMe from './Components/AboutMe'
 function App() {
 
   return (
@@ -19,7 +20,7 @@ function App() {
                 <a className="nav-link" aria-current="page" href="/proyectos">Mis Proyectos</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">Sobre mi</a>
+                <a className="nav-link" href="/aboutme">Sobre mi</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/misconocimientos">Mis conocimientos</a>
@@ -32,7 +33,8 @@ function App() {
       </div>
       <Router>
         <Routes>
-          <Route exact path="/" Component={Sobremi}></Route>
+          <Route exact path="/" Component={MainPage}></Route>
+          <Route exact path="/aboutme" Component={AboutMe}></Route>
           <Route path="/proyectos" Component={MisProyectos}></Route>
           <Route path="/misconocimientos" Component={Misconocimientos}></Route>
         </Routes>
