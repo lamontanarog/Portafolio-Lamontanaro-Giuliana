@@ -6,15 +6,14 @@ function Sobremi() {
     
     <div id="contenedor-sobre-mi" className="container mt-5">
       <div id="carrusel01" className="carousel slide" data-bs-ride="carousel" >
-        
         <div className="carousel-inner text-center">
           <div className="carousel-item active">
-            <img
-              className="d-block w-100"
-              src="/img/fotocv.jpg"
+            <img id="img"
+              src="/img/certificadoscrum.png"
               alt="..."
               style={{borderRadius:'5px'}}/>
-            <div className="bg-text-carusel mt-2">
+            <div 
+            className="bg-text-carusel mt-2">
               <h1>Quien soy?</h1>
               <h5>
                 Mi nombre es Giuliana Lamontanaro, tengo 23 años y cuento con
@@ -26,7 +25,8 @@ function Sobremi() {
           </div>
           <div className="carousel-item">
             <img
-              className="d-block w-100"
+            id="img"
+              
               src="/img/certificadoDW.png"
               alt="..."
               style={{borderRadius:'5px'}}/>
@@ -42,7 +42,8 @@ function Sobremi() {
           </div>
           <div className="carousel-item">
             <img
-              className="d-block w-100"
+            id="img"
+              
               src="/img/certificadoJs.png"
               alt="..."
               style={{borderRadius:'5px'}}/>
@@ -60,7 +61,8 @@ function Sobremi() {
           </div>
           <div className="carousel-item">
             <img
-              className="d-block w-100"
+            id="img"
+              
               src="/img/certificadoReact.png"
               alt="..."
               style={{borderRadius:'5px'}}/>
@@ -78,7 +80,8 @@ function Sobremi() {
           </div>
           <div className="carousel-item">
             <img
-              className="d-block w-100"
+            id="img"
+              
               src="/img/certificadoCarrerafs.png"
               alt="..."
               style={{borderRadius:'5px'}}/>

@@ -28,3 +28,8 @@ div:where(.swal2-container) h2:where(.swal2-title){
   font-size: x-large;
   color: black;
 }
+
+
+#img{
+  width: 80%;
+}
