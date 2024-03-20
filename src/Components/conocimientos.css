@@ -12,13 +12,6 @@ main div ul li img {
     aspect-ratio: 1/1;
 }
 
-/* 
-@media(max-width: 2000px) and (min-width:1250px) {
-    .lista-logos {
-        padding: 1.5rem;
-        margin-left: 15em;
-    }
-} */
 
 
 .title-shadow {
@@ -38,3 +31,9 @@ main div ul li img {
     display: flex;
     justify-content: center;
 }
+    
+    @media(min-width: 260px) and (max-width: 500px) {
+        .lista-logos {
+            margin: 10px auto;
+        }
+    } 

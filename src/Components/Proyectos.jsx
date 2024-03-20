@@ -8,7 +8,7 @@ function MisProyectos() {
       <div className="container mt-5">
         <div className="row text-center ">
           <div className="col-xl-auto col-md-auto col-sm-auto ">
-            <Card  style={{ width: "20rem", aspectRatio: "2/3" }}>
+            <Card  >
               <Card.Img variant="top" src="/icons/iconoControlDegastos.jpg" />
               <Card.Body>
                 <Card.Title>Control de gastos</Card.Title>
@@ -58,7 +58,7 @@ function MisProyectos() {
             </Card>
           </div>
           <div className="col-xl-auto col-md-auto col-sm-auto">
-            <Card style={{ width: "20rem" ,aspectRatio: "2/3"}}>
+            <Card>
               <Card.Img
                 variant="top"
                 src="/icons/Splendora_Cosmetics-logos.jpeg"
@@ -113,7 +113,7 @@ function MisProyectos() {
           
           <div className="row text-center mt-5">
           <div className="col-xl-auto col-md-auto col-sm-auto">
-            <Card style={{ width: "20rem", aspectRatio: "2/3" }}>
+            <Card >
               <Card.Img variant="top" src="/icons/logoPodiatryLove.jpg" />
               <Card.Body>
                 <Card.Title>Podiatry Love</Card.Title>
@@ -163,7 +163,7 @@ function MisProyectos() {
             </Card>
           </div>
           <div className="col-xl-auto col-md-auto col-sm-auto">
-            <Card style={{ width: "20rem", aspectRatio: "2/3" }}>
+            <Card >
               <Card.Img variant="top" src="/icons/iconoVintage.jpg" />
               <Card.Body>
                 <Card.Title>Vintage Golden Show</Card.Title>

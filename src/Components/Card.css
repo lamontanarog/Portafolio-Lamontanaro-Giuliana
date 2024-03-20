@@ -1,82 +1,73 @@
-/* Carrousel component About me */
-
-/* div .card-about-me-father {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-div .card-about-me {
-    height: auto;
-    width: 500px;
-    background: linear-gradient(rgba(0, 0, 0, 0.225), rgba(0, 0, 0, 0.496)), url('/img/Backgroundcolors.avif') no-repeat center top;
-    background-position: bottom;
-    background-size: cover;
-    padding: 8px;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 400;
-    border-radius: 6px;
-}
-
-div .card-about-me h5:hover {
-    background-color: #FFA0FD;
-    color: black;
-    transition: 0.5s;
-    opacity: 0.8;
-    border-radius: 5px;
-
-} */
-.father-card{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.father-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 /* Card Aboutme*/
 .Card-container {
-    perspective: 1000px;
+  perspective: 1000px;
 }
 
 .Card {
-    background-image: url('/img/Backgroundcolors.png');
-    background-size: cover;
-    width: 400px;
-    height: 200px;
-    transition: transform 0.5s;
-    transform-style: preserve-3d;
+  background-image: url("/img/Backgroundcolors.png");
+  background-size: cover;
+  width: 400px;
+  height: 214px;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
 }
 
 .Card-container.flipped .Card {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .Card .back {
-    display: none;
+  display: none;
 }
 
 .Card-container.flipped .Card .front {
-    display: none;
+  display: none;
 }
 
 .Card-container.flipped .Card .back {
-    display: block;
-    transform: rotateY(180deg);
+  display: block;
+  transform: rotateY(180deg);
 }
 
 .Card {
-    margin: 4%;
-    padding: 5%;
+  margin: 4%;
+  padding: 5%;
 }
 
-.Card-title{
-    text-align: center;
-    padding: 15%;
+.Card-title {
+  text-align: center;
+  padding: 15%;
 }
 
 .Card h5 {
-    color: white;
+  color: white;
 }
 .Card p {
-    color: white;
+  color: white;
+  text-align: center;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 260px) and (max-width: 500px) {
+  .Card {
+    width: 255px;
+    height: 330px;
+    margin: 10px;
+  }
+
+  .Card p {
+    text-align: center;
+    margin-top: auto;
+  }
+
+  .Card h5 {
+    background-color: #a52a2ab8;
+    border-radius: 8px;
+  }
 }
