@@ -85,8 +85,7 @@ footer .air.air4 {
 
 
 .carousel-control-prev{
-  margin-top: 5rem;
-  margin-left: 5%;
+  margin: auto 10px;
 }
 
 .carousel-control-prev-icon:hover{
@@ -94,8 +93,7 @@ footer .air.air4 {
 }
 
 .carousel-control-next{
-  margin-top: 5rem;
-  margin-right: 5%;
+  margin: auto 10px;
 }
 
 .carousel-control-next-icon:hover{
@@ -104,15 +102,19 @@ footer .air.air4 {
 
 @media (min-width: 260px) and (max-width: 500px) { 
   #contenedor-sobre-mi{
-    max-width: 80%;
+    max-width: 100%;
   }
   .carousel-control-next{
-    margin-top: -235px;
     margin-right: 5%;
   }
 
   .carousel-control-prev{
-    margin-top: -235px;
     margin-left: 5%;
+  }
+  .carousel-control-next-icon {
+    width: 1rem;
+  }
+  .carousel-control-prev-icon{
+    width: 1rem;
   }
 }

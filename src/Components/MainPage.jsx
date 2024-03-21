@@ -40,7 +40,6 @@ function MainPage() {
                 style={{ borderRadius: '5px' }} />
             </div>
           </div>
-        </div>
         {/* <!-- Botones izquierda y derecha --> */}
         <button className="carousel-control-prev" type="button" data-bs-target="#carrusel01" data-bs-slide="prev">
           <span className="carousel-control-prev-icon"></span>
@@ -48,6 +47,7 @@ function MainPage() {
         <button className="carousel-control-next" type="button" data-bs-target="#carrusel01" data-bs-slide="next">
           <span className="carousel-control-next-icon"></span>
         </button>
+        </div>
       </div>
 
     </>

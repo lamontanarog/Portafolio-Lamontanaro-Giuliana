@@ -9,11 +9,15 @@ footer {
   background: #3586ff;
   overflow: hidden;
 }
-
-div .buttons-proyects:hover {
+div .buttons-proyects{
   background-color: #ffa0fd;
-  color: black;
   border-color: #ffa0fd;
+  color: black;
+}
+div .buttons-proyects:hover {
+  background-color: #bf0bd7;
+  border-color: #ffa0fd;
+  color: black;
 }
 
 div .row {
