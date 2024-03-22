@@ -7,6 +7,7 @@ main div ul li {
 }
 
 main div ul li img {
+    filter: drop-shadow(-9px 1px 2px #0000008a);
     width: 150px;
     margin-left: 10px;
     aspect-ratio: 1/1;

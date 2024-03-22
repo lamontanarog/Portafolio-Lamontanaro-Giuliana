@@ -10,7 +10,7 @@ function Misconocimientos() {
         <div className="lista-logos">
           <ul>
             <li>
-              <img src="../logosSkills/html.png" alt="Logo JavaScript" />
+              <img src="../logosSkills/html.png" alt="Logo HTML5 JavaScript" />
             </li>
             <li>
               <img src="../logosSkills/css.png" alt="" />
