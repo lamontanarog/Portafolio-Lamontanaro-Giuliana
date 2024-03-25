@@ -52,6 +52,7 @@ div.card{
   .swal2-popup.swal2-modal.swal2-show {
     max-height: max-content !important;
     margin: 10px auto;
+    font-size: x-small !important;
     padding: 1em !important;
   }
 
@@ -74,9 +75,9 @@ div.card{
   } */
 
   div:where(.swal2-container) h2:where(.swal2-title) {
-    font-size: large;
+    font-size: x-large;
   }
-
+  
   div Button {
     margin: 1%;
   }
