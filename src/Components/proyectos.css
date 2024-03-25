@@ -50,9 +50,9 @@ div.card{
     margin: 10px auto;
   }
   .swal2-popup.swal2-modal.swal2-show {
-    max-height: 80%;
+    max-height: max-content !important;
     margin: 10px auto;
-    padding: 6px;
+    padding: 1em !important;
   }
 
   
@@ -68,8 +68,8 @@ div.card{
       text-transform: none;
       word-wrap: break-word;
       width: 300px; */
-      display: ruby-text;
-      max-width: max-content;
+      /* display: ruby-text;
+      max-height: max-content; */
       font-size: x-small;
   }
   div Button {
