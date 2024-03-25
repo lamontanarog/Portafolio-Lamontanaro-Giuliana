@@ -50,24 +50,27 @@ div.card{
     margin: 10px auto;
   }
   .swal2-popup.swal2-modal.swal2-show {
-    max-height: 50%;
+    max-height: 80%;
     margin: 10px auto;
     padding: 6px;
   }
 
   
   div:where(.swal2-container) h2:where(.swal2-title) {
-    position: fixed;
-    max-width: max-content;
-    font-size: xx-small;
-    font-weight: none;
-    color: black;
-    margin: 0;
-    padding: 0.8em 1em 0;
-    text-align: center;
-    text-transform: none;
-    word-wrap: break-word;
-    width: 300px;
+      /* position: fixed;
+      max-width: max-content;
+      font-size: xx-small;
+      font-weight: none;
+      color: black;
+      margin: 0;
+      padding: 0.8em 1em 0;
+      text-align: center;
+      text-transform: none;
+      word-wrap: break-word;
+      width: 300px; */
+      display: ruby-text;
+      max-width: max-content;
+      font-size: x-small;
   }
   div Button {
     margin: 1%;
