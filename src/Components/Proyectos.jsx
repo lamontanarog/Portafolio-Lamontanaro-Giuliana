@@ -9,7 +9,7 @@ function MisProyectos() {
         <div className="row text-center ">
           <div className="col-xl-auto col-md-auto col-sm-auto ">
             <Card>
-              <Card.Img variant="top" src="/icons/iconoControlDegastos.jpg" />
+              <Card.Img variant="top" src="/icons/iconoControlDegastos.webp" />
               <Card.Body>
                 <Card.Title>Control de gastos</Card.Title>
                 <Card.Text>
@@ -56,7 +56,7 @@ function MisProyectos() {
             <Card>
               <Card.Img
                 variant="top"
-                src="/icons/Splendora_Cosmetics-logos.jpeg"
+                src="/icons/IconSplendora.webp"
               />
               <Card.Body>
                 <Card.Title>Splendora Cosmetics</Card.Title>
@@ -109,7 +109,7 @@ function MisProyectos() {
           <div className="row text-center mt-5">
             <div className="col-xl-auto col-md-auto col-sm-auto">
               <Card>
-                <Card.Img variant="top" src="/icons/logoPodiatryLove.jpg" />
+                <Card.Img variant="top" src="/icons/logoPodiatryLove.webp" />
                 <Card.Body>
                   <Card.Title>Podiatry Love</Card.Title>
                   <Card.Text>
@@ -159,7 +159,7 @@ function MisProyectos() {
             </div>
             <div className="col-xl-auto col-md-auto col-sm-auto">
               <Card>
-                <Card.Img variant="top" src="/icons/iconoVintage.jpg" />
+                <Card.Img variant="top" src="/icons/iconoVintage.webp" />
                 <Card.Body>
                   <Card.Title>Vintage Golden Show</Card.Title>
                   <Card.Text>
