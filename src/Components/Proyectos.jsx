@@ -12,9 +12,7 @@ function MisProyectos() {
               <Card.Img variant="top" src="/icons/iconoControlDegastos.webp" />
               <Card.Body>
                 <Card.Title>Control de gastos</Card.Title>
-                <Card.Text>
-                  Proyecto realizado con Reactjs, Css, Bootstrap, Firebase.
-                </Card.Text>
+                <Card.Img src="https://skillicons.dev/icons?i=react,firebase,css,bootstrap,git,vite" className="mb-2" />
                 <Button
                   className="buttons-proyects mx-4"
                   onClick={() => {
@@ -60,9 +58,7 @@ function MisProyectos() {
               />
               <Card.Body>
                 <Card.Title>Splendora Cosmetics</Card.Title>
-                <Card.Text>
-                  Proyecto realizado con HTML, Css, Bootstrap, JavaScript, Apis
-                </Card.Text>
+                <Card.Img src="https://skillicons.dev/icons?i=html,javascript,css,bootstrap,git" className="mb-2" />
                 <Button
                   className="buttons-proyects mx-4"
                   onClick={() => {
@@ -112,9 +108,7 @@ function MisProyectos() {
                 <Card.Img variant="top" src="/icons/logoPodiatryLove.webp" />
                 <Card.Body>
                   <Card.Title>Podiatry Love</Card.Title>
-                  <Card.Text>
-                    Proyecto realizado con HTML, Css, Bootstrap, Sass.
-                  </Card.Text>
+                  <Card.Img src="https://skillicons.dev/icons?i=html,css,sass,bootstrap,git" className="mb-2" />
                   <Button
                     className="buttons-proyects mx-4"
                     onClick={() => {
@@ -162,10 +156,7 @@ function MisProyectos() {
                 <Card.Img variant="top" src="/icons/iconoVintage.webp" />
                 <Card.Body>
                   <Card.Title>Vintage Golden Show</Card.Title>
-                  <Card.Text>
-                    Proyecto realizado utilizando ReactJS y Firebase como
-                    tecnologías principales.
-                  </Card.Text>
+                  <Card.Img src="https://skillicons.dev/icons?i=react,firebase,css,bootstrap,git" className="mb-2" />
                   <Button
                     className="buttons-proyects mx-4"
                     onClick={() => {
